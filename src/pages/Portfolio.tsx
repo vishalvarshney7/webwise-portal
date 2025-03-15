@@ -2,6 +2,7 @@
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   // Categories for filtering
@@ -208,10 +209,13 @@ const Portfolio = () => {
                         ))}
                       </ul>
                       
-                      <button className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors group">
+                      <Link 
+                        to={`/portfolio/${project.id}`}
+                        className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors group"
+                      >
                         View case study
                         <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

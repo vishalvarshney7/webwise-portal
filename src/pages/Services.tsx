@@ -1,4 +1,3 @@
-
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import { CheckCircle2, ArrowRight, Code, Cloud, ShieldCheck, LineChart, Cpu, Globe, Workflow, BarChart2, Bot, Server } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -16,7 +15,7 @@ const Services = () => {
         'Business-IT alignment',
         'Technology stack assessment'
       ],
-      cta: '/contact'
+      id: 'it-strategy'
     },
     {
       icon: <Cloud className="h-12 w-12 text-primary" />,
@@ -28,7 +27,7 @@ const Services = () => {
         'Cloud optimization & cost management',
         'Serverless application development'
       ],
-      cta: '/contact'
+      id: 'cloud-solutions'
     },
     {
       icon: <ShieldCheck className="h-12 w-12 text-primary" />,
@@ -40,7 +39,7 @@ const Services = () => {
         'Security architecture design',
         'Compliance management (GDPR, HIPAA, PCI DSS)'
       ],
-      cta: '/contact'
+      id: 'cybersecurity'
     },
     {
       icon: <Code className="h-12 w-12 text-primary" />,
@@ -52,7 +51,7 @@ const Services = () => {
         'API development & integration',
         'DevOps implementation'
       ],
-      cta: '/contact'
+      id: 'software-development'
     },
     {
       icon: <Cpu className="h-12 w-12 text-primary" />,
@@ -64,7 +63,7 @@ const Services = () => {
         'Predictive analytics',
         'Data governance & quality management'
       ],
-      cta: '/contact'
+      id: 'data-analytics'
     },
     {
       icon: <Globe className="h-12 w-12 text-primary" />,
@@ -76,7 +75,7 @@ const Services = () => {
         'Process automation',
         'Change management'
       ],
-      cta: '/contact'
+      id: 'digital-transformation'
     },
     {
       icon: <Workflow className="h-12 w-12 text-primary" />,
@@ -179,7 +178,7 @@ const Services = () => {
                     </ul>
                     
                     <Link 
-                      to={service.cta} 
+                      to={`/services/${service.id}`} 
                       className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors group"
                     >
                       Learn more 
