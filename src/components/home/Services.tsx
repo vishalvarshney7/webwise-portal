@@ -8,37 +8,37 @@ const services = [
     icon: <LineChart className="h-12 w-12 text-primary" />,
     title: 'IT Strategy',
     description: 'Align your technology initiatives with business goals to create a roadmap for digital success.',
-    link: '/services'
+    link: '/services/it-strategy'
   },
   {
     icon: <Cloud className="h-12 w-12 text-primary" />,
     title: 'Cloud Solutions',
     description: 'Leverage cloud technologies for scalability, flexibility, and cost-effective operations.',
-    link: '/services'
+    link: '/services/cloud-solutions'
   },
   {
     icon: <ShieldCheck className="h-12 w-12 text-primary" />,
     title: 'Cybersecurity',
     description: 'Protect your business from threats with comprehensive security solutions and best practices.',
-    link: '/services'
+    link: '/services/cybersecurity'
   },
   {
     icon: <Code className="h-12 w-12 text-primary" />,
     title: 'Software Development',
     description: 'Custom software solutions designed to address your unique business challenges.',
-    link: '/services'
+    link: '/services/software-development'
   },
   {
     icon: <Cpu className="h-12 w-12 text-primary" />,
     title: 'Data Analytics',
     description: 'Transform your data into actionable insights that drive better business decisions.',
-    link: '/services'
+    link: '/services/data-analytics'
   },
   {
     icon: <Globe className="h-12 w-12 text-primary" />,
     title: 'Digital Transformation',
     description: 'Reimagine your business processes and customer experiences for the digital age.',
-    link: '/services'
+    link: '/services/digital-transformation'
   }
 ];
 

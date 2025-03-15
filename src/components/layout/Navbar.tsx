@@ -18,7 +18,8 @@ const Navbar = () => {
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Portfolio", path: "/portfolio" },
-    { name: "Blog", path: "/blog" }
+    { name: "Blog", path: "/blog" },
+    { name: "Contact", path: "/contact" }
   ];
 
   // Handle scroll effect
@@ -74,12 +75,6 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Link 
-            to="/contact" 
-            className="px-5 py-2.5 rounded-md text-sm font-medium text-white bg-primary hover:bg-primary/90 transition-colors"
-          >
-            Contact Us
-          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -118,13 +113,6 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Link 
-              to="/contact" 
-              className="px-6 py-3 rounded-md text-lg font-medium text-white bg-primary hover:bg-primary/90 transition-colors"
-              onClick={closeMenu}
-            >
-              Contact Us
-            </Link>
           </div>
         </div>
       </div>

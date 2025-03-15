@@ -10,7 +10,7 @@ const projects = [
     category: 'Digital Transformation',
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=600',
     description: 'Modernized legacy systems for a leading financial institution, improving operational efficiency by 45%.',
-    link: '/portfolio'
+    link: '/portfolio/1'
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     category: 'Data Analytics',
     image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=600',
     description: 'Built a HIPAA-compliant data analytics platform that reduced reporting time by 60%.',
-    link: '/portfolio'
+    link: '/portfolio/2'
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const projects = [
     category: 'Cloud Solutions',
     image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=600',
     description: 'Migrated on-premise infrastructure to AWS, cutting costs by 30% and improving scalability.',
-    link: '/portfolio'
+    link: '/portfolio/3'
   }
 ];
 

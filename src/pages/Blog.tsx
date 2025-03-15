@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -72,7 +73,9 @@ const Blog: React.FC = () => {
                 <CardDescription className="line-clamp-3">{post.excerpt}</CardDescription>
               </CardContent>
               <CardFooter>
-                <Button variant="link" className="px-0">Read More →</Button>
+                <Button variant="link" className="px-0" asChild>
+                  <Link to={`/blog/${post.id}`}>Read More →</Link>
+                </Button>
               </CardFooter>
             </Card>
           ))}
