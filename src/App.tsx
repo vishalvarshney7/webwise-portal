@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import BlogPost from "./pages/BlogPost";
 import CaseStudy from "./pages/CaseStudy";
 import ServiceDetail from "./pages/ServiceDetail";
+import TechnologyExpertise from "./pages/TechnologyExpertise";
 
 // Layout
 import Navbar from "./components/layout/Navbar";
@@ -42,6 +43,7 @@ const App = () => (
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogPost />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/technology-expertise" element={<TechnologyExpertise />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

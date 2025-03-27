@@ -105,6 +105,10 @@ export default {
 				'background-shine': {
 					'0%': { backgroundPosition: '0% 0%' },
 					'100%': { backgroundPosition: '-200% 0%' }
+				},
+				'slow-slide': {
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(-50%)' }
 				}
 			},
 			animation: {
@@ -116,7 +120,8 @@ export default {
 				'fade-in-right': 'fade-in-right 0.7s ease-out',
 				'scale-in': 'scale-in 0.7s ease-out',
 				'float': 'float 6s ease-in-out infinite',
-				'background-shine': 'background-shine 8s linear infinite'
+				'background-shine': 'background-shine 8s linear infinite',
+				'slow-slide': 'slow-slide 30s linear infinite'
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
