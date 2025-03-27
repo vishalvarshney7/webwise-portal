@@ -6,28 +6,22 @@ const About = () => {
   // Team members data
   const team = [
     {
-      name: "Jennifer Matthews",
-      role: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&auto=format&fit=crop&q=80",
-      bio: "With over 20 years of experience in IT and business strategy, Jennifer founded TechConsult to help businesses leverage technology for growth."
+      name: "Rachit Sogani",
+      role: "Leadership Team Member",
+      image: "/image.jpeg",
+      bio: "Rachit brings a wealth of experience in leadership and innovation, driving success across multiple domains."
     },
     {
-      name: "Michael Chen",
-      role: "CTO",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&auto=format&fit=crop&q=80",
-      bio: "Michael leads our technical team, bringing 15+ years of experience in software architecture, cloud infrastructure, and emerging technologies."
+      name: "Tanmay Jain",
+      role: "Leadership Team Member",
+      image: "/image.jpeg",
+      bio: "Tanmay specializes in strategic planning and operational excellence, ensuring seamless execution of projects."
     },
     {
-      name: "Sarah Johnson",
-      role: "Director of Consulting",
-      image: "https://images.unsplash.com/photo-1629747387925-6905ff5a558a?w=300&h=300&auto=format&fit=crop&q=80",
-      bio: "Sarah oversees all client projects, ensuring they are delivered to the highest standards and meet business objectives."
-    },
-    {
-      name: "David Rodriguez",
-      role: "Head of Cybersecurity",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&auto=format&fit=crop&q=80",
-      bio: "David specializes in enterprise cybersecurity, risk management, and compliance, with certifications in CISSP, CEH, and CISM."
+      name: "Vishal Varshney",
+      role: "Leadership Team Member",
+      image: "/image.jpeg",
+      bio: "Vishal is known for his expertise in technology and business integration, delivering impactful solutions."
     }
   ];
 
@@ -149,27 +143,27 @@ const About = () => {
             </p>
           </AnimatedSection>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <AnimatedSection key={member.name} delay={0.1 * index}>
-                <div className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm group">
-                  <div className="aspect-square overflow-hidden">
-                    <img 
-                      src={member.image} 
-                      alt={member.name} 
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-display font-bold">{member.name}</h3>
-                    <p className="text-primary font-medium mb-3">{member.role}</p>
-                    <p className="text-muted-foreground text-sm">{member.bio}</p>
-                  </div>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+  {team.map((member, index) => (
+    <AnimatedSection key={member.name} delay={0.1 * index}>
+      <div className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm group h-full">
+        <div className="aspect-square overflow-hidden">
+          <img 
+            src={member.image} 
+            alt={member.name} 
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-display font-bold">{member.name}</h3>
+          <p className="text-primary font-medium mb-3">{member.role}</p>
+          <p className="text-muted-foreground text-sm">{member.bio}</p>
+        </div>
+      </div>
+    </AnimatedSection>
+  ))}
+</div>
         </div>
       </section>
 
@@ -179,26 +173,26 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <AnimatedSection>
               <div className="text-center">
-                <div className="text-5xl font-display font-bold mb-2">10+</div>
+                <div className="text-5xl font-display font-bold mb-2">4+</div>
                 <div className="text-white/80">Years in Business</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.1}>
               <div className="text-center">
-                <div className="text-5xl font-display font-bold mb-2">100+</div>
+                <div className="text-5xl font-display font-bold mb-2">10+</div>
                 <div className="text-white/80">Team Members</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <div className="text-center">
-                <div className="text-5xl font-display font-bold mb-2">1,200+</div>
+                <div className="text-5xl font-display font-bold mb-2">200+</div>
                 <div className="text-white/80">Projects Completed</div>
               </div>
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
               <div className="text-center">
                 <div className="text-5xl font-display font-bold mb-2">20+</div>
-                <div className="text-white/80">Industry Awards</div>
+                <div className="text-white/80">Certification</div>
               </div>
             </AnimatedSection>
           </div>

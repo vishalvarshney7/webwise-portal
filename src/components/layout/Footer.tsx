@@ -28,7 +28,7 @@ const Footer = () => {
             <p className="text-muted-foreground max-w-xs">
               Providing expert IT consulting services to help businesses transform and thrive in the digital era.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="p-2 rounded-full bg-secondary text-foreground hover:bg-primary hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
@@ -53,7 +53,7 @@ const Footer = () => {
                   <circle cx="4" cy="4" r="2" />
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -92,7 +92,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-primary shrink-0" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+91 7665188347</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-primary shrink-0" />
@@ -110,6 +110,7 @@ const Footer = () => {
           <div className="flex items-center space-x-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms of Service</a>
+            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">IP Protection</a>
             <button 
               onClick={scrollToTop}
               className="p-2 rounded-full bg-secondary text-foreground hover:bg-primary hover:text-white transition-colors"
