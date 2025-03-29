@@ -1,6 +1,7 @@
 
 import Hero from '@/components/home/Hero';
 import Services from '@/components/home/Services';
+import TechnologyExpertise from "./TechnologyExpertise";
 import FeaturedProjects from '@/components/home/FeaturedProjects';
 import Testimonials from '@/components/home/Testimonials';
 import AnimatedSection from '@/components/ui/AnimatedSection';
@@ -58,6 +59,9 @@ const Index = () => {
       
       {/* Services Section */}
       <Services />
+
+      {/* Technology Expertise Section */}
+      <TechnologyExpertise />
       
       {/* Featured Projects Section */}
       <FeaturedProjects />
