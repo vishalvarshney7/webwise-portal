@@ -91,10 +91,10 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">123 Business Avenue, Tech Park, CA 94103</span>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-primary shrink-0" />
-                <span className="text-muted-foreground">+91 7665188347</span>
-              </li>
+                <span className="text-muted-foreground">+91</span>
+              </li> */}
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-primary shrink-0" />
                 <span className="text-muted-foreground">info@techconsult.com</span>

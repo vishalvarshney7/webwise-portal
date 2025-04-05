@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
       <AnimatedSection className="mb-12 text-center">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-primary">Contact Us</h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Have questions or need consultation? Our team is ready to help you transform your business with IT solutions.
+          We are here to help you transform your business with IT solutions.
         </p>
       </AnimatedSection>
 
@@ -129,8 +129,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="font-medium text-lg">Our Location</h3>
                   <p className="text-muted-foreground mt-1">
-                    123 Tech Park, Suite 101<br />
-                    San Francisco, CA 94107
+                    E-238A Ramnagar Vivek Vihar<br />
+                    Jaipur, Rajasthan
                   </p>
                 </div>
               </div>
@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <div className="bg-primary/10 p-3 rounded-full mr-4">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
@@ -159,7 +159,7 @@ const Contact: React.FC = () => {
                     +1 (987) 654-3210
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="mt-10">
@@ -167,11 +167,11 @@ const Contact: React.FC = () => {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span>Monday - Friday:</span>
-                  <span>9:00 AM - 5:00 PM</span>
+                  <span>9:00 AM - 7:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Saturday:</span>
-                  <span>10:00 AM - 2:00 PM</span>
+                  <span>10:00 AM - 5:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Sunday:</span>

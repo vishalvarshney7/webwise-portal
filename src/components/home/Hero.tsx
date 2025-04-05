@@ -45,7 +45,7 @@ const Hero = () => {
                 <div className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-900 bg-indigo-500 flex items-center justify-center text-white font-medium">S</div>
               </div>
               <div className="text-sm text-muted-foreground">
-                Trusted by <span className="font-semibold text-foreground">500+</span> companies worldwide
+                Trusted by <span className="font-semibold text-foreground">25+</span> companies worldwide
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Hero = () => {
               
               <div className="absolute -bottom-10 -left-10 w-44 glass-card p-4 rounded-lg shadow-lg border border-white/20 animate-float" style={{ animationDelay: '1.5s', animationDirection: 'reverse' }}>
                 <div className="text-xs text-muted-foreground">Projects Completed</div>
-                <div className="text-xl font-display font-bold">1,200+</div>
+                <div className="text-xl font-display font-bold">40+</div>
                 <div className="flex items-center mt-1">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">

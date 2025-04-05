@@ -6,19 +6,19 @@ const About = () => {
   // Team members data
   const team = [
     {
-      name: "Rachit Sogani",
+      name: "Rachit",
       role: "Leadership Team Member",
       image: "/image.jpeg",
       bio: "Rachit brings a wealth of experience in leadership and innovation, driving success across multiple domains."
     },
     {
-      name: "Tanmay Jain",
+      name: "Tanmay",
       role: "Leadership Team Member",
       image: "/image.jpeg",
       bio: "Tanmay specializes in strategic planning and operational excellence, ensuring seamless execution of projects."
     },
     {
-      name: "Vishal Varshney",
+      name: "Vishal",
       role: "Leadership Team Member",
       image: "/image.jpeg",
       bio: "Vishal is known for his expertise in technology and business integration, delivering impactful solutions."

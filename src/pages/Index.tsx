@@ -24,7 +24,7 @@ const Index = () => {
                   <Users className="h-8 w-8 text-primary" />
                 </div>
                 <div>
-                  <div className="text-3xl font-display font-bold">500+</div>
+                  <div className="text-3xl font-display font-bold">25+</div>
                   <div className="text-muted-foreground">Satisfied Clients</div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const Index = () => {
                   <Zap className="h-8 w-8 text-primary" />
                 </div>
                 <div>
-                  <div className="text-3xl font-display font-bold">1,200+</div>
+                  <div className="text-3xl font-display font-bold">40+</div>
                   <div className="text-muted-foreground">Projects Completed</div>
                 </div>
               </div>
