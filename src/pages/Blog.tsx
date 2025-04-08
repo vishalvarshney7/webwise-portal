@@ -39,6 +39,23 @@ const blogPosts = [
     category: 'Artificial Intelligence',
     imageUrl: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80',
   },
+  {
+    id: "5",
+    title: "Streamlining Data Pipelines: IBM DB2 to Azure Hyperscale DB with Databricks and ADLS – A CDC and Bulk Load Journey",
+    excerpt: "Explore a robust architecture for migrating data from IBM DB2 to Azure Hyperscale DB using Databricks, ADLS, and ADF, with detailed insights into CDC, bulk loads, and reconciliation.",
+    date: "April 05, 2025",
+    author: "Rachit",
+    category: "Data Engineering",
+    imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
+  },{
+  id: "6",
+  title: "Custom Authentication in Django: A Step-by-Step Guide",
+  excerpt: "Learn how to customize Django’s authentication system by modifying models.py, settings.py, and more to use email-based login and additional fields.",
+  date: "April 06, 2025",
+  author: "Rachit",
+  category: "Web Development",
+  imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
+  }
 ];
 
 const Blog: React.FC = () => {

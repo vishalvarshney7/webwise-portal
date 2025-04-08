@@ -93,13 +93,16 @@ const About = () => {
               <h2 className="section-title">Our Story</h2>
               <div className="space-y-6 text-lg">
                 <p>
-                  Founded in 2010, TechConsult was born from a vision to bridge the gap between business strategy and technology implementation. Our founder, Jennifer Matthews, recognized that many businesses were struggling to keep pace with rapid technological change and needed a partner to guide them through digital transformation.
+                  We help businesses unlock the true power of technology by delivering end-to-end IT solutions across front-end, back-end, middleware, AI, big data, database design, and solution architecture.
                 </p>
                 <p>
-                  Over the past decade, we've grown from a small team of technology enthusiasts to a comprehensive IT consulting firm serving clients across industries. Throughout our journey, our mission has remained constant: to help businesses leverage technology as a strategic asset for growth and competitive advantage.
+                  Our experience spans industries like banking, healthcare, crypto, GRC, edtech, restaurants, and big data. We’ve built success stories for clients across India, Singapore, Europe, Australia, the Middle East, and the United States.
                 </p>
                 <p>
-                  Today, TechConsult is recognized as a leader in IT consulting, known for our deep technical expertise, business acumen, and client-centric approach. With a team of over 100 consultants, we've successfully completed more than 1,200 projects for 500+ clients worldwide.
+                  What drives us is simple: delivering real results through smart technology and business understanding. We don’t just build systems—we help businesses scale, adapt, and lead.
+                </p>
+                <p>
+                  Our mission stays clear: to be a trusted partner in building future-ready solutions for a global market.
                 </p>
               </div>
             </AnimatedSection>
